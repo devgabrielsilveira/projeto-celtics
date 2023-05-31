@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #d8d6d9;
+    --cor1: #979a7f;
+    --cor2: #91854b;
+    --cor3: #5d521c;
+    --cor4: #8e2f2d;
+    --cor5: #1f1919;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor4);
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: ;
+}
+
+nav > ul {
+    list-style-type: none;
+}
