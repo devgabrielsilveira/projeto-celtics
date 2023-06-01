@@ -1,33 +1,104 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+
 :root {
     --cor0: #d8d6d9;
     --cor1: #979a7f;
     --cor2: #91854b;
     --cor3: #5d521c;
-    --cor4: #8e2f2d;
-    --cor5: #1f1919;
+    --cor4: #ff3366;
+    --cor5: #84111d;
+    --cor6: #1f1919;
 
 }
 
 * {
-    margin: 0px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--cor1);
 }
 
 header {
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+span#burguer {
+    background-color: var(--cor5);
+    color: white;
+    display: block;
+    font-size: 3em;
+    text-align: right;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: var(--cor4);
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu {
+    list-style-type: none;
+}
+
+menu > ul > li {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor5);
+    color: white;
+    font-size: 1.1em;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+menu > ul > li > a:hover {
     background-color: var(--cor4);
 }
 
-header > h1 {
-    color: white;
-    text-align: center;
-}
 
-nav {
-    background-color: ;
-}
 
-nav > ul {
-    list-style-type: none;
-}
+
+
+
+
+
+
+
+
+
+/*
+        li#link-whats > a > img {
+            margin-right: 15px;
+            width: 30px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+            box-sizing: border-box;
+        }
+*/
