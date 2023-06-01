@@ -50,8 +50,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: var(--cor4);
-    color: black;
+    color: var(--cor4);
 }
 
 menu {
@@ -79,7 +78,7 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: var(--cor4);
+    color: var(--cor4);
 }
 
 
