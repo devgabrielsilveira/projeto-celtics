@@ -3,18 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
 
 :root {
-    --cor0: #d8d6d9;
-    --cor1: #979a7f;
-    --cor2: #91854b;
-    --cor3: #5d521c;
+    --cor1: #d8c690;
+    --cor2: #CBB26A;
+    --cor3: #be9e44;
     --cor4: #ff3366;
     --cor5: #84111d;
-    --cor6: #1f1919;
-
-    /*
-    #780202 #CBB26A #aa0303 #460101 #d8c690 #be9e44
-    */
-
+    --cor6: #460101;
+    --cor7: #1f1919;
 }
 
 * {
@@ -87,6 +82,16 @@ menu > ul > li > a {
 
 menu > ul > li > a:hover {
     color: var(--cor4);
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
