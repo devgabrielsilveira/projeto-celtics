@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+    <script src="assets/js/script.js" defer></script>
 </head>
 <body onresize="mudouTamanho()">
     <header>
@@ -33,33 +34,33 @@
         </nav>
     </header>
     <main>
-        <div class="slider">
+        <section class="slider">
 
-            <div class="slides">
+            <div class="slider-content">
                 <!-- RADIO BUTTONS -->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <input type="radio" name="btn-radio" id="radio4">
                 <!-- FIM RADIO BUTTONS -->
 
                 <!-- SLIDE IMAGES -->
-                <div class="slide first">
-                    <img src="assets/imagens/prato1.jpg" alt="Prato de comida">
+                <div class="slide-box primeiro">
+                    <img class="img-desktop" src="assets/imagens/prato1.jpg" alt="Prato de comida">
                 </div>
-                <div class="slide">
-                    <img src="assets/imagens/prato2.jpg" alt="Prato de comida">
+                <div class="slide-box">
+                    <img class="img-desktop" src="assets/imagens/prato2.jpg" alt="Prato de comida">
                 </div>
-                <div class="slide">
-                    <img src="assets/imagens/prato3.jpg" alt="Sucos">
+                <div class="slide-box">
+                    <img class="img-desktop" src="assets/imagens/prato3.jpg" alt="Sucos">
                 </div>
-                <div class="slide">
-                    <img src="assets/imagens/prato4.jpg" alt="Sobremesas">
+                <div class="slide-box">
+                    <img class="img-desktop" src="assets/imagens/prato4.jpg" alt="Sobremesas">
                 </div>
                 <!-- FIM SLIDE IMAGES -->
 
                 <!-- NAVIGATION AUTO -->
-                <div class="navigation-auto">
+                <div class="nav-auto">
                     <div class="auto-btn1"></div>
                     <div class="auto-btn2"></div>
                     <div class="auto-btn3"></div>
@@ -67,7 +68,7 @@
                 </div>
             </div>
 
-            <div class="manual-navigation">
+            <div class="nav-manual">
                 <label for="radio1" class="manual-btn"></label>
                 <label for="radio2" class="manual-btn"></label>
                 <label for="radio3" class="manual-btn"></label>
