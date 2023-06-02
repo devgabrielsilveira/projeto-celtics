@@ -12,6 +12,10 @@
         padding: 1.5rem 6rem;
     }
 
+    img {
+        min-width: 262px;
+    }
+
     span#burguer {
         display: none;
     }
