@@ -6,7 +6,7 @@
     --cor1: #d8c690;
     --cor2: #CBB26A;
     --cor3: #be9e44;
-    --cor4: #ff3366;
+    --cor4: #cc2952;
     --cor5: #84111d;
     --cor6: #460101;
     --cor7: #1f1919;
@@ -84,6 +84,59 @@ menu > ul > li > a:hover {
     color: var(--cor4);
 }
 
+
+
+
+    /* QUEM SOMOS */
+
+div#quem-somos {
+    max-width: 650px;
+    margin: auto;
+}
+    
+    
+div#quem-somos > h1 {
+    display: block;
+    
+    background-color: var(--cor1);
+    color: var(--cor4);
+    text-align: center;
+    padding: 25px;
+}
+
+div#quem-somos > p {
+    font-size: 1.3em;
+    line-height: 1.3;
+    color: var(--cor7);
+    text-align: justify;
+    padding: 15px;
+    margin: auto;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN CONFIGURAÇÃO INICIAL
 main {
     margin: 0px;
     padding: 0px;
@@ -93,9 +146,7 @@ main {
     justify-content: center;
     align-items: center;
 }
-
-
-
+*/
 
 
 
