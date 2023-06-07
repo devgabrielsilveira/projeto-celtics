@@ -29,7 +29,7 @@ header {
     box-shadow: 0px 3px 10px #464646;
 }
 
-img {
+header img {
     max-width: 37%;
 }
 
@@ -88,31 +88,89 @@ menu > ul > li > a:hover {
 
 
     /* QUEM SOMOS */
+section#banner-quem-somos {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 300px;
+    
 
-div#quem-somos {
-    max-width: 650px;
+    background: url(../assets/imagens/quemsomos.jpg);
+    background-position: left center;
+    background-size: cover;
+}   
+
+
+div#quem-somos1 {
     margin: auto;
 }
     
     
-div#quem-somos > h1 {
+div#quem-somos1 > h1 {
     display: block;
-    
+    margin-top: 0px;
     background-color: var(--cor1);
     color: var(--cor4);
     text-align: center;
     padding: 25px;
 }
 
-div#quem-somos > p {
+div#quem-somos1 > p {
+    max-width: 650px;
     font-size: 1.3em;
     line-height: 1.3;
+    text-indent: 30px;
     color: var(--cor7);
     text-align: justify;
-    padding: 15px;
+    padding: 28px;
+    margin: auto;  
+}
+
+section#pratoqs {
+    display: block;
+    background-color: var(--cor5);
+}
+
+section#pratoqs img#p1 {
+    display: block;
     margin: auto;
+    max-width: 86vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
    
 }
+
+section#pratoqs img#p2 {
+    display: block;
+    margin: auto;
+    max-width: 86vw;
+    padding-bottom: 30px;
+}
+
+section#pratoqs img#p3 {
+    display: block;
+    margin: auto;
+    max-width: 86vw;
+    padding-bottom: 30px;
+}
+
+div#quem-somos2 {
+    margin: auto;
+}
+
+div#quem-somos2 > p {
+    max-width: 650px;
+    font-size: 1.3em;
+    line-height: 1.3;
+    text-indent: 30px;
+    color: var(--cor7);
+    text-align: justify;
+    padding: 28px;
+    margin: auto;  
+}
+
+
+
 
 
 

@@ -38,3 +38,18 @@
 
 
 }
+
+
+    /*QUEM SOMOS*/
+    section#banner-quem-somos {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 300px;
+        width: 100vw;
+    
+        background: url(../assets/imagens/quemsomosg.jpg);
+        background-position: left center;
+        background-size: cover;
+        
+        
+    }  
