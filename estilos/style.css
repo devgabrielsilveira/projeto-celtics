@@ -94,8 +94,7 @@ footer {
 footer > p {
     text-align: center;
     padding-top: 50px;
-    font-size: 1.1em;
-    
+    font-size: 1.1em;  
 }
 
 footer a {
@@ -268,6 +267,45 @@ iframe {
     margin: auto;
     padding-bottom: 40px;
     height: 300px;
+}
+
+div#contato-local {
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+
+div#contato-local h2 {
+    font-size: 1.1em;
+    padding: 15px 0px 0px 0px;
+    color: var(--cor4);
+}
+
+div#contato-local p {
+    font-size: 1.2em;
+    padding: 5px 0px 0px 0px;
+}
+
+
+
+
+
+
+div#redes-local {
+    
+    height: 100px;
+    background-color: var(--cor5);
+    color: rgba(255, 255, 255, 0.384);
+}
+
+div#redes-local > ul > li {
+    display: inline-block;
+}
+
+div#redes-local a {
+    display: block;
+    padding: 30px 30px;
+    text-align: center;
 }
 
 

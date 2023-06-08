@@ -29,12 +29,9 @@
 
     menu > ul > li {
         display: inline-block;
-
     }
 
-    main {
-        max-height: 406px;
-    }
+   
 
 
 }
