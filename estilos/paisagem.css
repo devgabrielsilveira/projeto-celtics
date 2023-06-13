@@ -19,7 +19,6 @@
         display: none;
     }
 
-
     menu {
         display: block;
         text-align: center;
@@ -29,6 +28,14 @@
 
     menu > ul > li {
         display: inline-block;
+    }
+
+    .img-mobile {
+        display: none;
+    }
+
+    .img-desktop {
+        display: block;
     }
 
    
