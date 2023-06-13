@@ -105,7 +105,6 @@ section.slider {
     height: auto;
     position: relative;
     text-align: center;
-
     transition: 1s;
 }
 
@@ -123,7 +122,7 @@ section.slider {
 
 .nav-manual .manual-btn, .nav-auto div {
     border: 1px solid var(--cor6);
-    padding: 10px;
+    padding: 8px;
     border-radius: 50%;
     cursor: pointer;
 
@@ -153,11 +152,18 @@ section.slider {
     margin-left: -50%;
 }
 
-footer {
-    display: block;
-    height: 150px;
+div.buffet {
+    margin-top: 17%;
+    text-align: center;
     background-color: var(--cor6);
-    color: rgba(255, 255, 255, 0.384);
+    color: white;
+    font-size: 2.3em;
+    font-weight: bold;
+    padding: 15px;
+}
+
+div.buffet:hover {
+    color: var(--cor4);
 }
 
 .icon {
@@ -191,7 +197,7 @@ footer {
 
 div#contato {
     display: block;
-    margin: 80px 20px;
+    margin: 80px 20px 30px 20px;
     text-align: center;
 }
 
@@ -217,6 +223,13 @@ div#redes > ul > li {
     display:inline-block;
     margin-top: 30px;
     padding: 0px 20px;
+}
+
+footer {
+    display: block;
+    height: 150px;
+    background-color: var(--cor6);
+    color: rgba(255, 255, 255, 0.384);
 }
 
 footer > p {
@@ -323,7 +336,7 @@ div#quem-somos2 > p {
 
 div#contato-somos {
     display: block;
-    margin: 20px;
+    margin: 80px 20px 30px 20px;
     text-align: center;
 }
 
@@ -420,7 +433,7 @@ iframe {
 
 div#contato-local {
     display: block;
-    margin: 20px;
+    margin: 80px 20px 30px 20px;
     text-align: center;
 }
 
