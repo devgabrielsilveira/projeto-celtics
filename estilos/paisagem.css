@@ -73,11 +73,106 @@
     .nav-manual, .nav-auto {
         position: absolute;
         width: 100%;
-        margin-top: 33%;
+        margin: 400px 0px;
         display: flex;
         justify-content: center;
     }
+
+    .nav-manual .manual-btn, .nav-auto div {
+        border: 1px solid var(--cor6);
+        padding: 8px;
+        border-radius: 50%;
+        cursor: pointer;
+    
+        transition: .6s;
+    }
+
+    .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child) {
+        margin-right: 50px;
+    }
+    
+    .nav-manual .manual-btn:hover {
+        background-color: var(--cor4);
+    }
+    
+    #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3 {
+        background-color: var(--cor4);
+    }
+    
+    #radio1:checked ~ .primeiro {
+        margin-left: 0%;
+    }
+    
+    #radio2:checked ~ .primeiro {
+        margin-left: -25%;
+    }
+    #radio3:checked ~ .primeiro {
+        margin-left: -50%;
+    }
+
+    div.buffet {
+        margin: 120px 0px 100px 0px;
+        text-align: center;
+        background-color: var(--cor6);
+        color: white;
+        font-size: 2.3em;
+        font-weight: bold;
+        padding: 15px;
+    }
    
+    .icon {
+        position: fixed;
+        bottom: 80px;
+        right: 15px;
+        font-size: 30px;
+        background-color: #01e675;
+        color: #ffffff;
+        border-radius: 50%;
+        padding: 3px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        z-index: 100;
+        box-shadow: 2px 2px 2px #c0bdbd;
+    }
+
+    div#contato {
+        display: block;
+        margin: 80px 20px 30px 20px;
+        text-align: center;
+    }
+    
+    div#contato h2 {
+        font-size: 1.7em;
+        padding: 15px 0px 0px 0px;
+        color: var(--cor4);
+    }
+    
+    div#contato p {
+        font-size: 1.5em;
+        padding: 5px 0px 0px 0px;
+    }
+
+    div#redes {
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        background-color: var(--cor5);
+    }
+
+    div#redes img {
+       width: 40px;
+       height: 40px;
+       object-fit: fill;
+       
+    }
+    
+    div#redes > ul > li {
+        display:inline-block;
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
 
 
 
