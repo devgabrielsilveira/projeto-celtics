@@ -162,10 +162,6 @@ div.buffet {
     padding: 15px;
 }
 
-div.buffet:hover {
-    color: var(--cor4);
-}
-
 .icon {
     position: fixed;
     bottom: 40px;
