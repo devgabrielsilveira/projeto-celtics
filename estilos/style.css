@@ -24,9 +24,13 @@ body {
 
 header {
     background-color: var(--cor5);
-    color: white;;
+    color: white;
     padding: 10px;
-    box-shadow: 0px 3px 10px #464646;
+
+    top: 0;
+    position: sticky;
+    z-index: 3;
+    
     
 }
 
@@ -280,7 +284,7 @@ div.container > p {
     text-indent: 30px;
     color: var(--cor7);
     text-align: justify;
-    padding: 28px 0px 0px 28px;
+    padding: 28px 28px 28px 28px ;
     margin: auto;  
 }
 
@@ -331,10 +335,22 @@ div#quem-somos2 > p {
     text-indent: 30px;
     color: var(--cor7);
     text-align: justify;
-    padding: 28px;
+    padding: 28px 28px 0px 28px;
     margin: auto;  
 }
 
+div#slogan {
+    display: block;
+    padding: 0px 0px 28px 0px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--cor4);
+}
+
+div#slogan p {
+    font-size: 1.8em;
+    font-style: italic;
+}
 
 div#contato-somos {
     display: block;
