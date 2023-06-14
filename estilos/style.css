@@ -27,6 +27,7 @@ header {
     color: white;
     padding: 10px;
 
+
     top: 0;
     position: sticky;
     z-index: 3;
@@ -427,7 +428,7 @@ div#localizacao1 a {
     color: var(--cor3);
 }
 
-div#localizacao2 > p {
+div#localizacao1 > p {
     display: block;
     max-width: 650px;
     font-size: 1.3em;
@@ -484,77 +485,3 @@ div#redes-local > ul > li {
     padding: 0px 20px;
 }
 
-
-
-/*
-div#redes-local {
-    height: 100px;
-    background-color: var(--cor5);
-    color: rgba(255, 255, 255, 0.384);
-}
-
-div#redes-local > ul > li {
-    display: inline-block;
-    text-align: center;
-}
-
-
-div#redes-local a {
-    display: block;
-    padding: 30px 30px;   
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MAIN CONFIGURAÇÃO INICIAL
-main {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*/
-
-
-
-
-
-
-
-
-
-/*
-        li#link-whats > a > img {
-            margin-right: 15px;
-            width: 30px;
-            border-radius: 50%;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-            box-sizing: border-box;
-        }
-*/
