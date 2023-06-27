@@ -222,7 +222,7 @@ div#contato p {
 
 div#redes {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 100px;
     background-color: var(--cor5);
 }
