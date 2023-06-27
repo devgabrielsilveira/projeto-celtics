@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 1000px) {
     header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         padding: 0px;
     }
 
@@ -403,27 +407,4 @@
         margin-top: 55px;
         padding: 0px 20px;
     }
-
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-  
-  
-    
-    

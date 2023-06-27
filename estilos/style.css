@@ -36,7 +36,7 @@ header {
 }
 
 header img {
-    max-width: 37%;
+    width: 200px
 }
 
 .material-symbols-outlined {
@@ -51,7 +51,7 @@ span#burguer {
     background-color: var(--cor5);
     color: white;
     display: block;
-    font-size: 2.5em;
+    font-size: 3.1em;
     text-align: right;
     padding: 2px;
     border-radius: 5px;
@@ -115,6 +115,14 @@ section.slider {
 
 .slide-box img {
     width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 
 .nav-manual, .nav-auto {
